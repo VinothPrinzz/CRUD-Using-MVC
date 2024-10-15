@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const taskSchema = mongoose.Schema({
     taskTitle: {
         type: String,
-        required: [true, "Task title is required"]
+        required: [true, "Task Title is required"]
     },
     taskDesc: {
         type: String,

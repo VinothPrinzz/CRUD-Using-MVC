@@ -29,7 +29,7 @@ exports.getAllTask = async(req,res,next) => {
     }
     catch (err) {
         res.status(404).json({
-            status: "Failed to get All Tasks"
+            status: "Failed to get all Tasks"
         })
     }
 }
